@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic"
+
 import Image from "next/image";
 import clientPromise from "@/lib/mongodb";
 export default async  function ProductCards() {
@@ -77,4 +79,5 @@ export default async  function ProductCards() {
       ))}
     </div>
   );
+
 }
