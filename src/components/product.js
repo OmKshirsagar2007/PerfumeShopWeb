@@ -1,4 +1,5 @@
 export const dynamic = "force-dynamic"
+export let revalidate = 0
 
 import Image from "next/image";
 import clientPromise from "@/lib/mongodb";
@@ -81,3 +82,4 @@ export default async  function ProductCards() {
   );
 
 }
+
